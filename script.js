@@ -16,10 +16,23 @@ $(document).ready(function() {
           src:  'img/' + letter + '.png'
         });
       } else {
-        temp = letter;
+        temp = filterLatter(letter);
       }
     
       eResult.append(temp);
     }
   });
 });
+
+function filterLatter(letter)
+{
+  var result;
+
+  switch(letter) {
+    case ('\n'): result = '<br>'; break;
+
+    default: result = letter.toLowerCase();
+
+  }
+  return result;
+}
