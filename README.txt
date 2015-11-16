@@ -1,5 +1,5 @@
-Bill Cipher Encrypter.
+Gravity Falls Encrypter.
 
-Encode letters to characters from the cartoon Gravity Falls
+Encode letters to characters from the cartoon Gravity Falls.
 
 Demo: http://nullcloud.tk/bill
