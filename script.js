@@ -31,7 +31,7 @@ function filterLatter(letter)
   switch(letter) {
     case ('\n'): result = '<br>'; break;
 
-    default: result = letter.toLowerCase();
+    default: result = letter;
 
   }
   return result;
