@@ -13,7 +13,7 @@ $(document).ready(function() {
 
       if (letter.match('[a-z]')) {
         temp = $('<img/>', {
-          src:  'img/' + letter + '.png'
+          src:  'img/bill/' + letter + '.png'
         });
       } else {
         temp = filterLatter(letter);
