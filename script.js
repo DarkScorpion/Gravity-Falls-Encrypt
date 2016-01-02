@@ -16,7 +16,7 @@ $(document).ready(function() {
           src:  'img/bill/' + letter + '.png'
         });
       } else {
-        temp = filterLatter(letter);
+        temp = filterLetter(letter);
       }
     
       eResult.append(temp);
@@ -24,7 +24,7 @@ $(document).ready(function() {
   });
 });
 
-function filterLatter(letter)
+function filterLetter(letter)
 {
   var result;
 
